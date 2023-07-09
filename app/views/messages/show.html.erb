@@ -1,0 +1,7 @@
+<h1> Message show Page</h1>
+
+  <h1> <%= @message.title %></h1>
+  <h2> <%= @message.description %></h2>
+  <h2> <%= @message.created_at %></h2>
+
+<%= link_to "New Message" ,  new_message_path%>
